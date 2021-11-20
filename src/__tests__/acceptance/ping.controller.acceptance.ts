@@ -1,9 +1,9 @@
 import {Client, expect} from '@loopback/testlab';
-import {PryectoclaseApplication} from '../..';
+import {Application} from '../..';
 import {setupApplication} from './test-helper';
 
 describe('PingController', () => {
-  let app: PryectoclaseApplication;
+  let app: Application;
   let client: Client;
 
   before('setupApplication', async () => {

@@ -4,3 +4,4 @@ export * from './empleado.controller';
 export * from './clientes.controller';
 export * from './user.controller';
 export * from './contrato.controller';
+export * from './user-user-credentials.controller';
