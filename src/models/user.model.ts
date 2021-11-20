@@ -1,6 +1,13 @@
 import {Entity, hasOne, model, property} from '@loopback/repository';
 import {UserCredentials} from './user-credentials.model';
 
+export type Credentials = {
+  email: string;
+  password: string;
+  role?: string
+};
+
+
 @model({
   settings: {
     indexes: {
